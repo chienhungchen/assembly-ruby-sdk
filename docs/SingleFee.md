@@ -2,17 +2,16 @@
 
 ## Properties
 
-| Name | Type | Description | Notes |
-| ---- | ---- | ----------- | ----- |
-| **fees** | [**Fee**](Fee.md) |  | [optional] |
+Name | Type | Description | Notes
+------------ | ------------- | ------------- | -------------
+**fees** | [**Fee**](Fee.md) |  | [optional] 
 
-## Example
+## Code Sample
 
 ```ruby
-require 'openapi_client'
+require 'OpenapiClient'
 
-instance = OpenapiClient::SingleFee.new(
-  fees: null
-)
+instance = OpenapiClient::SingleFee.new(fees: null)
 ```
+
 

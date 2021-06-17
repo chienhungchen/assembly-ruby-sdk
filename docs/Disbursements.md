@@ -2,19 +2,18 @@
 
 ## Properties
 
-| Name | Type | Description | Notes |
-| ---- | ---- | ----------- | ----- |
-| **disbursements** | [**Array&lt;Disbursement&gt;**](Disbursement.md) |  | [optional] |
-| **meta** | [**ListBpayAccountsMeta**](ListBpayAccountsMeta.md) |  | [optional] |
+Name | Type | Description | Notes
+------------ | ------------- | ------------- | -------------
+**disbursements** | [**Array&lt;Disbursement&gt;**](Disbursement.md) |  | [optional] 
+**meta** | [**ListBpayAccountsMeta**](ListBpayAccountsMeta.md) |  | [optional] 
 
-## Example
+## Code Sample
 
 ```ruby
-require 'openapi_client'
+require 'OpenapiClient'
 
-instance = OpenapiClient::Disbursements.new(
-  disbursements: null,
-  meta: null
-)
+instance = OpenapiClient::Disbursements.new(disbursements: null,
+                                 meta: null)
 ```
+
 

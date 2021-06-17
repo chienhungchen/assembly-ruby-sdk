@@ -2,17 +2,16 @@
 
 ## Properties
 
-| Name | Type | Description | Notes |
-| ---- | ---- | ----------- | ----- |
-| **bank_account** | **String** |  | [optional] |
+Name | Type | Description | Notes
+------------ | ------------- | ------------- | -------------
+**bank_account** | **String** |  | [optional] 
 
-## Example
+## Code Sample
 
 ```ruby
-require 'openapi_client'
+require 'OpenapiClient'
 
-instance = OpenapiClient::BankAccountDeletion.new(
-  bank_account: Successfully redacted
-)
+instance = OpenapiClient::BankAccountDeletion.new(bank_account: Successfully redacted)
 ```
+
 

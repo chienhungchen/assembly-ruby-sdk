@@ -2,19 +2,18 @@
 
 ## Properties
 
-| Name | Type | Description | Notes |
-| ---- | ---- | ----------- | ----- |
-| **id** | **String** |  | [optional] |
-| **bpay_details** | [**WalletAccountBpayDetailsBpayDetails**](WalletAccountBpayDetailsBpayDetails.md) |  | [optional] |
+Name | Type | Description | Notes
+------------ | ------------- | ------------- | -------------
+**id** | **String** |  | [optional] 
+**bpay_details** | [**WalletAccountBpayDetailsBpayDetails**](WalletAccountBpayDetailsBpayDetails.md) |  | [optional] 
 
-## Example
+## Code Sample
 
 ```ruby
-require 'openapi_client'
+require 'OpenapiClient'
 
-instance = OpenapiClient::WalletAccountBpayDetails.new(
-  id: 46deb476-c1a6-41eb-8eb7-26a695bbe5bc,
-  bpay_details: null
-)
+instance = OpenapiClient::WalletAccountBpayDetails.new(id: 46deb476-c1a6-41eb-8eb7-26a695bbe5bc,
+                                 bpay_details: null)
 ```
+
 

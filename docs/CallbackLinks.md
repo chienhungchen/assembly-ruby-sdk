@@ -2,19 +2,18 @@
 
 ## Properties
 
-| Name | Type | Description | Notes |
-| ---- | ---- | ----------- | ----- |
-| **_self** | **String** |  | [optional] |
-| **responses** | **String** |  | [optional] |
+Name | Type | Description | Notes
+------------ | ------------- | ------------- | -------------
+**_self** | **String** |  | [optional] 
+**responses** | **String** |  | [optional] 
 
-## Example
+## Code Sample
 
 ```ruby
-require 'openapi_client'
+require 'OpenapiClient'
 
-instance = OpenapiClient::CallbackLinks.new(
-  _self: null,
-  responses: null
-)
+instance = OpenapiClient::CallbackLinks.new(_self: null,
+                                 responses: null)
 ```
+
 

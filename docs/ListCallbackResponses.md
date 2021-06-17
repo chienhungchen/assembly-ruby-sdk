@@ -2,21 +2,20 @@
 
 ## Properties
 
-| Name | Type | Description | Notes |
-| ---- | ---- | ----------- | ----- |
-| **callback_responses** | [**Array&lt;CallbackResponse&gt;**](CallbackResponse.md) |  | [optional] |
-| **meta** | [**ListBpayAccountsMeta**](ListBpayAccountsMeta.md) |  | [optional] |
-| **links** | [**ListCallbackResponsesLinks**](ListCallbackResponsesLinks.md) |  | [optional] |
+Name | Type | Description | Notes
+------------ | ------------- | ------------- | -------------
+**callback_responses** | [**Array&lt;CallbackResponse&gt;**](CallbackResponse.md) |  | [optional] 
+**meta** | [**ListBpayAccountsMeta**](ListBpayAccountsMeta.md) |  | [optional] 
+**links** | [**ListCallbackResponsesLinks**](ListCallbackResponsesLinks.md) |  | [optional] 
 
-## Example
+## Code Sample
 
 ```ruby
-require 'openapi_client'
+require 'OpenapiClient'
 
-instance = OpenapiClient::ListCallbackResponses.new(
-  callback_responses: null,
-  meta: null,
-  links: null
-)
+instance = OpenapiClient::ListCallbackResponses.new(callback_responses: null,
+                                 meta: null,
+                                 links: null)
 ```
+
 

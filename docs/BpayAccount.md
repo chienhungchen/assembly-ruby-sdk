@@ -2,17 +2,16 @@
 
 ## Properties
 
-| Name | Type | Description | Notes |
-| ---- | ---- | ----------- | ----- |
-| **bpay_accounts** | [**ListBpayAccountsBpayAccounts**](ListBpayAccountsBpayAccounts.md) |  | [optional] |
+Name | Type | Description | Notes
+------------ | ------------- | ------------- | -------------
+**bpay_accounts** | [**ListBpayAccountsBpayAccounts**](ListBpayAccountsBpayAccounts.md) |  | [optional] 
 
-## Example
+## Code Sample
 
 ```ruby
-require 'openapi_client'
+require 'OpenapiClient'
 
-instance = OpenapiClient::BpayAccount.new(
-  bpay_accounts: null
-)
+instance = OpenapiClient::BpayAccount.new(bpay_accounts: null)
 ```
+
 

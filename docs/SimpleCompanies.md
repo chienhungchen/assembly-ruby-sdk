@@ -2,17 +2,16 @@
 
 ## Properties
 
-| Name | Type | Description | Notes |
-| ---- | ---- | ----------- | ----- |
-| **companies** | [**Array&lt;SimpleCompany&gt;**](SimpleCompany.md) |  | [optional] |
+Name | Type | Description | Notes
+------------ | ------------- | ------------- | -------------
+**companies** | [**Array&lt;SimpleCompany&gt;**](SimpleCompany.md) |  | [optional] 
 
-## Example
+## Code Sample
 
 ```ruby
-require 'openapi_client'
+require 'OpenapiClient'
 
-instance = OpenapiClient::SimpleCompanies.new(
-  companies: null
-)
+instance = OpenapiClient::SimpleCompanies.new(companies: null)
 ```
+
 

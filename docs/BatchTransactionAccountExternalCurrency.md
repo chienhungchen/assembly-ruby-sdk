@@ -2,17 +2,16 @@
 
 ## Properties
 
-| Name | Type | Description | Notes |
-| ---- | ---- | ----------- | ----- |
-| **code** | **String** |  | [optional] |
+Name | Type | Description | Notes
+------------ | ------------- | ------------- | -------------
+**code** | **String** |  | [optional] 
 
-## Example
+## Code Sample
 
 ```ruby
-require 'openapi_client'
+require 'OpenapiClient'
 
-instance = OpenapiClient::BatchTransactionAccountExternalCurrency.new(
-  code: AUD
-)
+instance = OpenapiClient::BatchTransactionAccountExternalCurrency.new(code: AUD)
 ```
+
 

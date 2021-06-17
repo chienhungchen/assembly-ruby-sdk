@@ -2,17 +2,16 @@
 
 ## Properties
 
-| Name | Type | Description | Notes |
-| ---- | ---- | ----------- | ----- |
-| **account_to** | [**BatchTransactionRelatedAccountTo**](BatchTransactionRelatedAccountTo.md) |  | [optional] |
+Name | Type | Description | Notes
+------------ | ------------- | ------------- | -------------
+**account_to** | [**BatchTransactionRelatedAccountTo**](BatchTransactionRelatedAccountTo.md) |  | [optional] 
 
-## Example
+## Code Sample
 
 ```ruby
-require 'openapi_client'
+require 'OpenapiClient'
 
-instance = OpenapiClient::BatchTransactionRelated.new(
-  account_to: null
-)
+instance = OpenapiClient::BatchTransactionRelated.new(account_to: null)
 ```
+
 

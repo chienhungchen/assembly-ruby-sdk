@@ -2,17 +2,16 @@
 
 ## Properties
 
-| Name | Type | Description | Notes |
-| ---- | ---- | ----------- | ----- |
-| **users** | [**Array&lt;User&gt;**](User.md) |  | [optional] |
+Name | Type | Description | Notes
+------------ | ------------- | ------------- | -------------
+**users** | [**Array&lt;User&gt;**](User.md) |  | [optional] 
 
-## Example
+## Code Sample
 
 ```ruby
-require 'openapi_client'
+require 'OpenapiClient'
 
-instance = OpenapiClient::Users.new(
-  users: null
-)
+instance = OpenapiClient::Users.new(users: null)
 ```
+
 

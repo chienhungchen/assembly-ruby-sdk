@@ -2,19 +2,18 @@
 
 ## Properties
 
-| Name | Type | Description | Notes |
-| ---- | ---- | ----------- | ----- |
-| **_self** | **String** |  | [optional] |
-| **users** | **String** |  | [optional] |
+Name | Type | Description | Notes
+------------ | ------------- | ------------- | -------------
+**_self** | **String** |  | [optional] 
+**users** | **String** |  | [optional] 
 
-## Example
+## Code Sample
 
 ```ruby
-require 'openapi_client'
+require 'OpenapiClient'
 
-instance = OpenapiClient::ListBpayAccountsLinks.new(
-  _self: null,
-  users: null
-)
+instance = OpenapiClient::ListBpayAccountsLinks.new(_self: null,
+                                 users: null)
 ```
+
 

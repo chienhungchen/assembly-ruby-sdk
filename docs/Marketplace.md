@@ -2,17 +2,16 @@
 
 ## Properties
 
-| Name | Type | Description | Notes |
-| ---- | ---- | ----------- | ----- |
-| **marketplaces** | [**MarketplaceMarketplaces**](MarketplaceMarketplaces.md) |  | [optional] |
+Name | Type | Description | Notes
+------------ | ------------- | ------------- | -------------
+**marketplaces** | [**MarketplaceMarketplaces**](MarketplaceMarketplaces.md) |  | [optional] 
 
-## Example
+## Code Sample
 
 ```ruby
-require 'openapi_client'
+require 'OpenapiClient'
 
-instance = OpenapiClient::Marketplace.new(
-  marketplaces: null
-)
+instance = OpenapiClient::Marketplace.new(marketplaces: null)
 ```
+
 

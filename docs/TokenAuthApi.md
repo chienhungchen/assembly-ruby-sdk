@@ -2,9 +2,10 @@
 
 All URIs are relative to *https://virtserver.swaggerhub.com/AssemblyPlatforms/assembly-api/2.0*
 
-| Method | HTTP request | Description |
-| ------ | ------------ | ----------- |
-| [**generate_token**](TokenAuthApi.md#generate_token) | **POST** /token_auths | Generate Token |
+Method | HTTP request | Description
+------------- | ------------- | -------------
+[**generate_token**](TokenAuthApi.md#generate_token) | **POST** /token_auths | Generate Token
+
 
 
 ## generate_token
@@ -15,10 +16,10 @@ Generate Token
 
 Create a token, either for a bank or a card account, that can be used with the **PromisePay.js** package to securely send Assembly credit card details.
 
-### Examples
+### Example
 
 ```ruby
-require 'time'
+# load the gem
 require 'openapi_client'
 # setup authorization
 OpenapiClient.configure do |config|
@@ -31,40 +32,23 @@ OpenapiClient.configure do |config|
 end
 
 api_instance = OpenapiClient::TokenAuthApi.new
-token_auth_request_body = OpenapiClient::TokenAuthRequestBody.new({token_type: 'bank', user_id: 'seller-68611249'}) # TokenAuthRequestBody | 
+token_auth_request_body = OpenapiClient::TokenAuthRequestBody.new # TokenAuthRequestBody | 
 
 begin
-  # Generate Token
+  #Generate Token
   result = api_instance.generate_token(token_auth_request_body)
   p result
 rescue OpenapiClient::ApiError => e
-  puts "Error when calling TokenAuthApi->generate_token: #{e}"
-end
-```
-
-#### Using the generate_token_with_http_info variant
-
-This returns an Array which contains the response data, status code and headers.
-
-> <Array(Object, Integer, Hash)> generate_token_with_http_info(token_auth_request_body)
-
-```ruby
-begin
-  # Generate Token
-  data, status_code, headers = api_instance.generate_token_with_http_info(token_auth_request_body)
-  p status_code # => 2xx
-  p headers # => { ... }
-  p data # => Object
-rescue OpenapiClient::ApiError => e
-  puts "Error when calling TokenAuthApi->generate_token_with_http_info: #{e}"
+  puts "Exception when calling TokenAuthApi->generate_token: #{e}"
 end
 ```
 
 ### Parameters
 
-| Name | Type | Description | Notes |
-| ---- | ---- | ----------- | ----- |
-| **token_auth_request_body** | [**TokenAuthRequestBody**](TokenAuthRequestBody.md) |  |  |
+
+Name | Type | Description  | Notes
+------------- | ------------- | ------------- | -------------
+ **token_auth_request_body** | [**TokenAuthRequestBody**](TokenAuthRequestBody.md)|  | 
 
 ### Return type
 

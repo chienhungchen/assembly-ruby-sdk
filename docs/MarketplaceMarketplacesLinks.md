@@ -2,21 +2,20 @@
 
 ## Properties
 
-| Name | Type | Description | Notes |
-| ---- | ---- | ----------- | ----- |
-| **_self** | **String** |  | [optional] |
-| **principal** | **String** |  | [optional] |
-| **company** | **String** |  | [optional] |
+Name | Type | Description | Notes
+------------ | ------------- | ------------- | -------------
+**_self** | **String** |  | [optional] 
+**principal** | **String** |  | [optional] 
+**company** | **String** |  | [optional] 
 
-## Example
+## Code Sample
 
 ```ruby
-require 'openapi_client'
+require 'OpenapiClient'
 
-instance = OpenapiClient::MarketplaceMarketplacesLinks.new(
-  _self: null,
-  principal: null,
-  company: null
-)
+instance = OpenapiClient::MarketplaceMarketplacesLinks.new(_self: null,
+                                 principal: null,
+                                 company: null)
 ```
+
 

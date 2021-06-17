@@ -2,17 +2,16 @@
 
 ## Properties
 
-| Name | Type | Description | Notes |
-| ---- | ---- | ----------- | ----- |
-| **routing_number** | [**SingleRoutingNumberRoutingNumber**](SingleRoutingNumberRoutingNumber.md) |  | [optional] |
+Name | Type | Description | Notes
+------------ | ------------- | ------------- | -------------
+**routing_number** | [**SingleRoutingNumberRoutingNumber**](SingleRoutingNumberRoutingNumber.md) |  | [optional] 
 
-## Example
+## Code Sample
 
 ```ruby
-require 'openapi_client'
+require 'OpenapiClient'
 
-instance = OpenapiClient::SingleRoutingNumber.new(
-  routing_number: null
-)
+instance = OpenapiClient::SingleRoutingNumber.new(routing_number: null)
 ```
+
 

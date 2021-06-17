@@ -2,27 +2,26 @@
 
 ## Properties
 
-| Name | Type | Description | Notes |
-| ---- | ---- | ----------- | ----- |
-| **group_name** | **String** |  | [optional] |
-| **name** | **String** |  | [optional] |
-| **short_name** | **String** |  | [optional] |
-| **uuid** | **String** |  | [optional] |
-| **account_details** | **String** |  | [optional] |
-| **account_details_encrypted** | **Boolean** |  | [optional] |
+Name | Type | Description | Notes
+------------ | ------------- | ------------- | -------------
+**group_name** | **String** |  | [optional] 
+**name** | **String** |  | [optional] 
+**short_name** | **String** |  | [optional] 
+**uuid** | **String** |  | [optional] 
+**account_details** | **String** |  | [optional] 
+**account_details_encrypted** | **Boolean** |  | [optional] 
 
-## Example
+## Code Sample
 
 ```ruby
-require 'openapi_client'
+require 'OpenapiClient'
 
-instance = OpenapiClient::BatchTransactionMarketplace.new(
-  group_name: null,
-  name: null,
-  short_name: null,
-  uuid: null,
-  account_details: null,
-  account_details_encrypted: null
-)
+instance = OpenapiClient::BatchTransactionMarketplace.new(group_name: null,
+                                 name: null,
+                                 short_name: null,
+                                 uuid: null,
+                                 account_details: null,
+                                 account_details_encrypted: null)
 ```
+
 

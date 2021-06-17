@@ -2,19 +2,18 @@
 
 ## Properties
 
-| Name | Type | Description | Notes |
-| ---- | ---- | ----------- | ----- |
-| **account_type_id** | **String** |  | [optional] |
-| **currency** | [**BatchTransactionAccountExternalCurrency**](BatchTransactionAccountExternalCurrency.md) |  | [optional] |
+Name | Type | Description | Notes
+------------ | ------------- | ------------- | -------------
+**account_type_id** | **String** |  | [optional] 
+**currency** | [**BatchTransactionAccountExternalCurrency**](BatchTransactionAccountExternalCurrency.md) |  | [optional] 
 
-## Example
+## Code Sample
 
 ```ruby
-require 'openapi_client'
+require 'OpenapiClient'
 
-instance = OpenapiClient::BatchTransactionAccountExternal.new(
-  account_type_id: 9100,
-  currency: null
-)
+instance = OpenapiClient::BatchTransactionAccountExternal.new(account_type_id: 9100,
+                                 currency: null)
 ```
+
 

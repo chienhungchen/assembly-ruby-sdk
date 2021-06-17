@@ -2,21 +2,20 @@
 
 ## Properties
 
-| Name | Type | Description | Notes |
-| ---- | ---- | ----------- | ----- |
-| **transactions** | [**Array&lt;Transaction&gt;**](Transaction.md) |  | [optional] |
-| **meta** | [**ListBpayAccountsMeta**](ListBpayAccountsMeta.md) |  | [optional] |
-| **links** | [**AddressAddressesLinks**](AddressAddressesLinks.md) |  | [optional] |
+Name | Type | Description | Notes
+------------ | ------------- | ------------- | -------------
+**transactions** | [**Array&lt;Transaction&gt;**](Transaction.md) |  | [optional] 
+**meta** | [**ListBpayAccountsMeta**](ListBpayAccountsMeta.md) |  | [optional] 
+**links** | [**AddressAddressesLinks**](AddressAddressesLinks.md) |  | [optional] 
 
-## Example
+## Code Sample
 
 ```ruby
-require 'openapi_client'
+require 'OpenapiClient'
 
-instance = OpenapiClient::Transactions.new(
-  transactions: null,
-  meta: null,
-  links: null
-)
+instance = OpenapiClient::Transactions.new(transactions: null,
+                                 meta: null,
+                                 links: null)
 ```
+
 

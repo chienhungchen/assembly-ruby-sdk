@@ -2,17 +2,16 @@
 
 ## Properties
 
-| Name | Type | Description | Notes |
-| ---- | ---- | ----------- | ----- |
-| **items** | [**BpayDetailsWithId**](BpayDetailsWithId.md) |  | [optional] |
+Name | Type | Description | Notes
+------------ | ------------- | ------------- | -------------
+**items** | [**BpayDetailsWithId**](BpayDetailsWithId.md) |  | [optional] 
 
-## Example
+## Code Sample
 
 ```ruby
-require 'openapi_client'
+require 'OpenapiClient'
 
-instance = OpenapiClient::SingleBpayDetailsWithId.new(
-  items: null
-)
+instance = OpenapiClient::SingleBpayDetailsWithId.new(items: null)
 ```
+
 

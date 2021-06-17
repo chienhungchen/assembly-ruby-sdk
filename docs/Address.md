@@ -2,17 +2,16 @@
 
 ## Properties
 
-| Name | Type | Description | Notes |
-| ---- | ---- | ----------- | ----- |
-| **addresses** | [**AddressAddresses**](AddressAddresses.md) |  | [optional] |
+Name | Type | Description | Notes
+------------ | ------------- | ------------- | -------------
+**addresses** | [**AddressAddresses**](AddressAddresses.md) |  | [optional] 
 
-## Example
+## Code Sample
 
 ```ruby
-require 'openapi_client'
+require 'OpenapiClient'
 
-instance = OpenapiClient::Address.new(
-  addresses: null
-)
+instance = OpenapiClient::Address.new(addresses: null)
 ```
+
 

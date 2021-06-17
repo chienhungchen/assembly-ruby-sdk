@@ -2,19 +2,18 @@
 
 ## Properties
 
-| Name | Type | Description | Notes |
-| ---- | ---- | ----------- | ----- |
-| **id** | **String** |  | [optional] |
-| **item_number** | **String** |  | [optional] |
+Name | Type | Description | Notes
+------------ | ------------- | ------------- | -------------
+**id** | **String** |  | [optional] 
+**item_number** | **String** |  | [optional] 
 
-## Example
+## Code Sample
 
 ```ruby
-require 'openapi_client'
+require 'OpenapiClient'
 
-instance = OpenapiClient::BatchTransactionItem.new(
-  id: null,
-  item_number: null
-)
+instance = OpenapiClient::BatchTransactionItem.new(id: null,
+                                 item_number: null)
 ```
+
 

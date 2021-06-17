@@ -2,21 +2,20 @@
 
 ## Properties
 
-| Name | Type | Description | Notes |
-| ---- | ---- | ----------- | ----- |
-| **limit** | **Integer** |  | [optional] |
-| **offset** | **Integer** |  | [optional] |
-| **total** | **Integer** |  | [optional] |
+Name | Type | Description | Notes
+------------ | ------------- | ------------- | -------------
+**limit** | **Integer** |  | [optional] 
+**offset** | **Integer** |  | [optional] 
+**total** | **Integer** |  | [optional] 
 
-## Example
+## Code Sample
 
 ```ruby
-require 'openapi_client'
+require 'OpenapiClient'
 
-instance = OpenapiClient::ListBpayAccountsMeta.new(
-  limit: null,
-  offset: null,
-  total: null
-)
+instance = OpenapiClient::ListBpayAccountsMeta.new(limit: null,
+                                 offset: null,
+                                 total: null)
 ```
+
 

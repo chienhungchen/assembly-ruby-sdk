@@ -2,25 +2,24 @@
 
 ## Properties
 
-| Name | Type | Description | Notes |
-| ---- | ---- | ----------- | ----- |
-| **active** | **Boolean** |  | [optional] |
-| **created_at** | **Time** |  | [optional] |
-| **updated_at** | **Time** |  | [optional] |
-| **id** | **String** |  | [optional] |
-| **currency** | **String** |  | [optional] |
+Name | Type | Description | Notes
+------------ | ------------- | ------------- | -------------
+**active** | **Boolean** |  | [optional] 
+**created_at** | **DateTime** |  | [optional] 
+**updated_at** | **DateTime** |  | [optional] 
+**id** | **String** |  | [optional] 
+**currency** | **String** |  | [optional] 
 
-## Example
+## Code Sample
 
 ```ruby
-require 'openapi_client'
+require 'OpenapiClient'
 
-instance = OpenapiClient::Account.new(
-  active: true,
-  created_at: null,
-  updated_at: null,
-  id: 46deb476-c1a6-41eb-8eb7-26a695bbe5bc,
-  currency: AUD
-)
+instance = OpenapiClient::Account.new(active: true,
+                                 created_at: null,
+                                 updated_at: null,
+                                 id: 46deb476-c1a6-41eb-8eb7-26a695bbe5bc,
+                                 currency: AUD)
 ```
+
 

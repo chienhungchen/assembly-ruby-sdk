@@ -2,17 +2,16 @@
 
 ## Properties
 
-| Name | Type | Description | Notes |
-| ---- | ---- | ----------- | ----- |
-| **batch_transactions** | [**BatchTransaction**](BatchTransaction.md) |  | [optional] |
+Name | Type | Description | Notes
+------------ | ------------- | ------------- | -------------
+**batch_transactions** | [**BatchTransaction**](BatchTransaction.md) |  | [optional] 
 
-## Example
+## Code Sample
 
 ```ruby
-require 'openapi_client'
+require 'OpenapiClient'
 
-instance = OpenapiClient::SingleBatchTransaction.new(
-  batch_transactions: null
-)
+instance = OpenapiClient::SingleBatchTransaction.new(batch_transactions: null)
 ```
+
 

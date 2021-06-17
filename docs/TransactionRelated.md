@@ -2,17 +2,16 @@
 
 ## Properties
 
-| Name | Type | Description | Notes |
-| ---- | ---- | ----------- | ----- |
-| **transactions** | [**Array&lt;TransactionRelatedTransactions&gt;**](TransactionRelatedTransactions.md) |  | [optional] |
+Name | Type | Description | Notes
+------------ | ------------- | ------------- | -------------
+**transactions** | [**Array&lt;TransactionRelatedTransactions&gt;**](TransactionRelatedTransactions.md) |  | [optional] 
 
-## Example
+## Code Sample
 
 ```ruby
-require 'openapi_client'
+require 'OpenapiClient'
 
-instance = OpenapiClient::TransactionRelated.new(
-  transactions: null
-)
+instance = OpenapiClient::TransactionRelated.new(transactions: null)
 ```
+
 

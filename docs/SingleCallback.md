@@ -2,17 +2,16 @@
 
 ## Properties
 
-| Name | Type | Description | Notes |
-| ---- | ---- | ----------- | ----- |
-| **callbacks** | [**Callback**](Callback.md) |  | [optional] |
+Name | Type | Description | Notes
+------------ | ------------- | ------------- | -------------
+**callbacks** | [**Callback**](Callback.md) |  | [optional] 
 
-## Example
+## Code Sample
 
 ```ruby
-require 'openapi_client'
+require 'OpenapiClient'
 
-instance = OpenapiClient::SingleCallback.new(
-  callbacks: null
-)
+instance = OpenapiClient::SingleCallback.new(callbacks: null)
 ```
+
 

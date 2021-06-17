@@ -2,17 +2,16 @@
 
 ## Properties
 
-| Name | Type | Description | Notes |
-| ---- | ---- | ----------- | ----- |
-| **wallet_accounts** | [**WalletAccountWalletAccounts**](WalletAccountWalletAccounts.md) |  | [optional] |
+Name | Type | Description | Notes
+------------ | ------------- | ------------- | -------------
+**wallet_accounts** | [**WalletAccountWalletAccounts**](WalletAccountWalletAccounts.md) |  | [optional] 
 
-## Example
+## Code Sample
 
 ```ruby
-require 'openapi_client'
+require 'OpenapiClient'
 
-instance = OpenapiClient::WalletAccount.new(
-  wallet_accounts: null
-)
+instance = OpenapiClient::WalletAccount.new(wallet_accounts: null)
 ```
+
 

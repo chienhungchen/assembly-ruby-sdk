@@ -2,25 +2,24 @@
 
 ## Properties
 
-| Name | Type | Description | Notes |
-| ---- | ---- | ----------- | ----- |
-| **pay_id** | **String** |  | [optional] |
-| **marketplace_pay_ids** | [**Array&lt;WalletAccountNppDetailsNppDetailsMarketplacePayIds&gt;**](WalletAccountNppDetailsNppDetailsMarketplacePayIds.md) |  | [optional] |
-| **reference** | **String** |  | [optional] |
-| **amount** | **String** |  | [optional] |
-| **currency** | **String** |  | [optional] |
+Name | Type | Description | Notes
+------------ | ------------- | ------------- | -------------
+**pay_id** | **String** |  | [optional] 
+**marketplace_pay_ids** | [**Array&lt;WalletAccountNppDetailsNppDetailsMarketplacePayIds&gt;**](WalletAccountNppDetailsNppDetailsMarketplacePayIds.md) |  | [optional] 
+**reference** | **String** |  | [optional] 
+**amount** | **String** |  | [optional] 
+**currency** | **String** |  | [optional] 
 
-## Example
+## Code Sample
 
 ```ruby
-require 'openapi_client'
+require 'OpenapiClient'
 
-instance = OpenapiClient::WalletAccountNppDetailsNppDetails.new(
-  pay_id: null,
-  marketplace_pay_ids: null,
-  reference: null,
-  amount: null,
-  currency: null
-)
+instance = OpenapiClient::WalletAccountNppDetailsNppDetails.new(pay_id: null,
+                                 marketplace_pay_ids: null,
+                                 reference: null,
+                                 amount: null,
+                                 currency: null)
 ```
+
 
